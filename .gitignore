@@ -216,3 +216,199 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================================
+# DATA ANALYST PROJECT
+# TheLook Ecommerce - BigQuery / Python / Power BI
+# ==========================================================
+
+# ----------------------------------------------------------
+# Python
+# ----------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Unit tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Lint
+.ruff_cache/
+
+# ----------------------------------------------------------
+# Virtual Environments
+# ----------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ----------------------------------------------------------
+# Jupyter Notebook
+# ----------------------------------------------------------
+.ipynb_checkpoints/
+
+# Jupyter generated files
+*.nbconvert.ipynb
+
+# ----------------------------------------------------------
+# VS Code
+# ----------------------------------------------------------
+.vscode/
+
+# ----------------------------------------------------------
+# PyCharm
+# ----------------------------------------------------------
+.idea/
+
+# ----------------------------------------------------------
+# Operating System
+# ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------------------------------------
+# Environment variables / Secrets
+# ----------------------------------------------------------
+.env
+.env.*
+*.env
+
+# Google Cloud credentials
+credentials.json
+service-account.json
+gcp-key.json
+*.pem
+*.key
+
+# ----------------------------------------------------------
+# BigQuery
+# ----------------------------------------------------------
+*.bq
+*.tmp.sql
+
+# ----------------------------------------------------------
+# Data files
+# ----------------------------------------------------------
+
+# Ignore temporary exports
+data/temp/
+data/intermediate/
+data/processed/
+
+# Large data files
+*.parquet
+*.feather
+*.pickle
+*.pkl
+
+# Optional:
+# Uncomment if teacher provides the CSV externally
+# data/*.csv
+
+# Keep project structure
+!data/.gitkeep
+
+# ----------------------------------------------------------
+# Power BI
+# ----------------------------------------------------------
+
+# Auto recovery
+*.pbix.autosave
+*.tmp
+
+# Cache folders
+powerbi/cache/
+powerbi/temp/
+
+# Optional:
+# Uncomment if PBIX is too large for GitHub
+# *.pbix
+
+# ----------------------------------------------------------
+# Reports / Exports
+# ----------------------------------------------------------
+reports/export/
+exports/
+output/
+
+*.pdf
+*.png
+*.jpeg
+*.jpg
+
+# Keep dashboard screenshots
+!reports/screenshots/
+!reports/screenshots/*.png
+
+# ----------------------------------------------------------
+# Presentation temporary files
+# ----------------------------------------------------------
+~$*.pptx
+~$*.xlsx
+~$*.docx
+
+# ----------------------------------------------------------
+# SQL generated artifacts
+# ----------------------------------------------------------
+sql/generated/
+
+# ----------------------------------------------------------
+# Data quality reports
+# ----------------------------------------------------------
+profiling_reports/
+ydata_profiling/
+sweetviz_reports/
+
+# ----------------------------------------------------------
+# Local experiments
+# ----------------------------------------------------------
+scratch/
+sandbox/
+tmp/
+
+# ----------------------------------------------------------
+# Mac/Linux swap files
+# ----------------------------------------------------------
+*.swp
+*.swo
+*~
+
+# ----------------------------------------------------------
+# Project-specific exceptions
+# ----------------------------------------------------------
+
+# Keep source code
+!src/
+
+# Keep notebooks
+!notebooks/
+
+# Keep SQL
+!sql/
+
+# Keep documentation
+!README.md
+
+# Keep slides
+!slides/
+
+# Keep Power BI project folder
+!powerbi/
