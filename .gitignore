@@ -97,6 +97,7 @@ output/
 
 *.pdf
 *.png
+!powerbi/*.png   # <- exception pour les captures Power BI
 *.jpg
 *.jpeg
 
